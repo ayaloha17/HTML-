@@ -1,0 +1,57 @@
+body {
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, sans-serif; 
+    font-size: 16px; 
+    line-height: 1.5; 
+    color: #333; 
+    background-color: #f0f0f0; /* 背景色 */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-image: url('background.jpg'); /* オランダをイメージした背景画像 */
+    background-size: "width=device-width, initial-scale=2.0";
+    background-position: center;
+    color: rgb(0, 0, 0);
+}
+nav {
+    margin: 20px 0;
+}
+nav a {
+    margin: 20px;
+    text-decoration: none;
+    color: #ff3d00; /* オレンジ色（オランダの国旗の色） */
+    font-weight: bold;
+}
+nav a:hover {
+    color: #d95d00; /* ホバー時の色 */
+}
+section {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #ff3d00; 
+    text-align: center;
+}
+h3 {
+    color: #0f0f0f; /* 明るいオレンジ */
+}
+p {
+    line-height: 1.6;
+    color: #333;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffa600; /* ヘッダーと同じオレンジ色 */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
